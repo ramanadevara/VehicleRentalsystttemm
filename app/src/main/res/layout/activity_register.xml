@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/regbag1"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhin.vehiclerentalsystem.Register">
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etname"
+        android:layout_below="@+id/etname"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="enter your email "
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etemail"
+        android:layout_below="@+id/etemail"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="enter your password"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etconfirmpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:hint="confirm password"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bconregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp"
+        android:text="Register" />
+
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etconfirmpass"
+        android:layout_below="@+id/etconfirmpass"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="enter your mobile number"
+        android:inputType="phone" />
+
+</RelativeLayout>
